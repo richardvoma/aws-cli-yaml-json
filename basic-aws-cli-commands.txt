@@ -1,0 +1,19 @@
+# aws configure
+Use the command to set up your aws cli configuration on your pc 
+
+# aws s3 mb s3://bucket-nam
+Use to create s3 bucket with your aws cli
+
+# aws s3 cp file.txt s3://bucket-name
+Use to upload file or copy file from aws cli to your s3 bucket
+
+# aws s3 rm s3://bucket-name/file.txt
+Use to remove the file or delete the file you uploaded in your s3 bucket,but your bucket is not deleted
+
+# aws ec2 describe-instances
+Use to list the number of EC2 instance you are having in your aws account
+
+# aws ec2 run-instances --image-id ami-0fc61db8544a617ed --instance-type t2.micro --key-name my-key-pair --security-group-ids sg-0123456789abcdef --subnet-id subnet-0123456789abcdef
+Use to create EC2 instance but you need to have an existing key pair that is working and has been configure
+
+
