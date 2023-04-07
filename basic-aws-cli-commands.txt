@@ -1,4 +1,4 @@
-# aws configure
+# aws configure richard
 Use the command to set up your aws cli configuration on your pc 
 
 # aws s3 mb s3://bucket-nam
